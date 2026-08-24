@@ -1,0 +1,25 @@
+{
+  "framework_metadata": {
+    "name": "The Futurist's Strategy Cone Framework",
+    "version": "1.0.0",
+    "owner": "TheFuturistsStrategyCone",
+    "license": "Proprietary - All Rights Reserved"
+  },
+  "strategy_parameters": {
+    "agent_role": "Strategic Financial Asset Manager",
+    "target_horizon": "Long-Term Growth",
+    "risk_tolerance_level": "Conservative",
+    "evaluation_frequency_seconds": 3600
+  },
+  "decision_boundaries": {
+    "max_transaction_limit_usd": 5000.00,
+    "allowable_asset_classes": ["Equities", "Treasury_Bonds", "ETFs"],
+    "restricted_asset_classes": ["High_Leverage_Crypto", "Unregulated_Derivatives"],
+    "geographical_restrictions": ["Sanctioned_Regions"]
+  },
+  "execution_controls": {
+    "human_in_the_loop_required": true,
+    "hitl_trigger_threshold_usd": 2500.00,
+    "emergency_kill_switch_enabled": true
+  }
+}
